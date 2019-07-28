@@ -38,11 +38,6 @@ func main() {
 		fmt.Scanf("%s\n", &userPwd)
 
 		login(userId, userPwd)
-		// if err != nil {
-		// 	fmt.Println("登陆失败")
-		// } else {
-
-		// }
 
 	} else if key == "2" {
 		fmt.Println("进行用户注册")
